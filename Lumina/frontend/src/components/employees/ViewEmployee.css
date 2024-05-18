@@ -1,0 +1,62 @@
+.employee-profile-container {
+    max-width: 700px;
+    margin: 150px auto;
+    background-color: #b60000; /* Changed to red */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.employee-photo {
+    flex-shrink: 5; /* Prevent the image from scaling on flex */
+}
+
+.employee-photo img {
+    width: 200px; /* Adjusted the width to maintain aspect ratio */
+    height: 200px; /* Adjusted to square for better appearance */
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(218, 218, 218, 0.2);
+    border: 6px solid rgb(255, 255, 255);
+    transition: transform 0.3s ease-in-out;
+}
+
+.employee-photo img:hover {
+    transform: scale(1.05);
+}
+
+.employee-details {
+    padding: 20px;
+    text-align: left; /* Changed to left for a more standard text flow */
+    width: 100%;
+    background: linear-gradient(to bottom, #ffffff, #ffffff); /* You might want to change this if it clashes with the red */
+}
+
+.employee-details h2 {
+    margin: 20px 0 10px;
+    font-size: 28px;
+    color: #8d0000; /* Changed to white for better contrast with red */
+}
+
+.employee-details p {
+    margin: 10px 0;
+    color: #000000; /* Changed to white for readability on red */
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.employee-details p strong {
+    color: #490000; /* Changed to white to maintain consistency */
+    font-weight: 600;
+}
+
+.employee-details p svg {
+    vertical-align: middle;
+    margin-right: 5px;
+    color: #000000; /* Changed to white for visibility on red */
+}
+
+h2,h3,h4,h1{
+    color: #8d0000;
+}

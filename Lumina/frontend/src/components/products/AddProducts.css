@@ -1,0 +1,66 @@
+AddProducts.css
+
+/* Form container styles */
+.container {
+    margin-top: 50px; /* Adjust margin as needed */
+  }
+  
+  /* Card styles */
+  .card {
+    border: 2px solid #f54343; /* Form border color */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
+  }
+  
+  /* Card body styles */
+  .card-body {
+    padding: 20px;
+  }
+  
+  /* Form label styles */
+  .form-label {
+    font-weight: bold;
+  }
+  
+  /* Form control styles */
+  .form-control {
+    border: 2px solid #f54343; /* Default border color */
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  /* Error message for invalid input */
+  .form-control:invalid {
+    border-color: #f54343;
+  }
+  
+  /* Submit button styles */
+  .btn-primary {
+    background-color: #f54343;
+    border-color: #f54343;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #d63b3b;
+    border-color: #d63b3b;
+  }
+  
+  /* OK button styles */
+  .btn-ok {
+    background-color: #2a36df;
+    border-color: #2a36df;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-ok:hover {
+    background-color: #7669eb;
+    border-color: #7669eb;
+  }
+  

@@ -1,0 +1,33 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* subtle shadow for depth */
+}
+
+.navbar-logo img {
+  height: 90px; /* Adjust based on your logo's size */
+}
+
+.navbar-links {
+  display: flex;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px; /* Increased padding for a larger clickable area */
+  margin: 0 5px; /* Space between links */
+  border-radius: 5px; /* Rounded corners */
+  background: linear-gradient(145deg, #f55656, #9b0000); /* Colorful gradient background */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow for 3D effect */
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth transitions for hover effects */
+}
+
+.nav-link:hover {
+  transform: translateY(-2px); /* Slight lift effect on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Increased shadow on hover for depth */
+}

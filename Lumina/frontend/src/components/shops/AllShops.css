@@ -1,0 +1,31 @@
+
+.modal-backdrop {
+    opacity: 0.5 !important;
+}
+
+.modal-content {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-close {
+    padding: 0.5rem 0.75rem;
+    background-color: transparent;
+    border: none;
+}
+
+.btn-close:hover {
+    background-color: #f8f9fa;
+}
+
+.btn-download-pdf {
+    background-color: #000;
+    color: #fff;
+}
+
+.modal-body{
+    color:#000;
+}
+
+label{
+    color:#000;
+}

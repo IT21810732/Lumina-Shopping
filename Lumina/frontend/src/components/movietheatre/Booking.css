@@ -1,0 +1,121 @@
+/* Container for the booking form, styled with a clean and modern design */
+.booking-container {
+    background-color: #ffffff; /* Bright, clean background for contrast */
+    padding: 40px; /* Ample padding for a spacious layout */
+    border-radius: 12px; /* Smooth, rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    width: 100%; /* Full width to adapt to parent container size */
+    max-width: 400px; /* Maximum width to maintain form proportion */
+    margin: 40px auto; /* Centered horizontally with vertical spacing */
+    font-family: 'Arial', sans-serif; /* Professional, readable typeface */
+}
+
+/* Title within the booking container */
+.booking-title {
+    text-align: center; /* Center-aligned text for focus */
+    color: #333; /* Dark gray for better readability */
+    margin-bottom: 25px; /* Space below the title */
+    font-size: 24px; /* Prominent font size for importance */
+    font-weight: bold; /* Bold weight for emphasis */
+}
+
+/* Styling for form layout with structured spacing */
+.booking-form {
+    display: flex;
+    flex-direction: column; /* Linear, vertical layout of form elements */
+    gap: 20px; /* Consistent space between elements */
+}
+
+/* Grouping form elements */
+.form-group {
+    margin-bottom: 20px; /* Space below each form group for separation */
+}
+
+/* Label styling for clarity and emphasis */
+.form-label {
+    display: block; /* Full width for better control */
+    margin-bottom: 10px; /* Space below label for visual separation */
+    font-size: 16px; /* Larger font size for clear legibility */
+    color: #444; /* Soft black for readability */
+    font-weight: bold; /* Bold to denote importance */
+}
+
+/* Input and select box styling for interaction and visibility */
+.form-input, .form-select {
+    padding: 15px; /* Comfortable padding for text entry */
+    border: 1px solid #ccc; /* Subtle border color */
+    border-radius: 8px; /* Gentle rounded corners for aesthetics */
+    width: 100%; /* Full width to fill form group */
+    font-size: 16px; /* Adequate font size for readability */
+    transition: border-color 0.3s ease-in-out; /* Smooth transition for focus state */
+}
+
+/* Enhance focus state with a distinct border color */
+.form-input:focus, .form-select:focus {
+    border-color: #007BFF; /* Bright blue for visibility */
+    outline: none; /* Remove default outline to rely on border color */
+}
+
+/* Submit button styling with interaction effects */
+.submit-button {
+    background-color: #007BFF; /* Consistent brand color */
+    color: white; /* High contrast text color for readability */
+    padding: 15px; /* Comfortable click area */
+    border-radius: 8px; /* Rounded corners matching inputs */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Readable font size */
+    transition: background-color 0.25s ease; /* Smooth color transition */
+    letter-spacing: 1px; /* Spaced lettering for emphasis */
+}
+
+/* Hover state for submit button with a darker shade and shadow for depth */
+.submit-button:hover {
+    background-color: #0056b3; /* Darker shade for interaction */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15); /* Added shadow for effect */
+}
+
+/* General message styling for alerts or information */
+.message {
+    margin-top: 15px; /* Space above for separation */
+    text-align: center; /* Center alignment for focus */
+    font-size: 0.95em; /* Slightly smaller font size for subtlety */
+    color: #666; /* Medium gray for less emphasis */
+}
+
+.player-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.player-title {
+    margin-bottom: 15px;
+}
+
+.code-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.watch-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.message {
+    margin-top: 10px;
+    color: green;
+    font-weight: bold;
+}

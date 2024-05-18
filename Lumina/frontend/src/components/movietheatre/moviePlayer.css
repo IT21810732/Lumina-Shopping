@@ -1,0 +1,107 @@
+/* Root level styling for color scheme and font settings */
+:root {
+    --primary-color: #e50914; /* Netflix red */
+    --background-color: #141414;
+    --text-color: #fff;
+    --hover-color: #ff1e00;
+    --accent-color: #008080; /* Teal for additional details and buttons */
+}
+
+/* Ensures the entire movie player container is visually striking and centered */
+.movie-player-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2vh 2vw;
+    color: var(--text-color);
+    background: linear-gradient(135deg, var(--background-color) 0%, #333 100%);
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Dynamic animations for movie details appearance */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.movie-details {
+    text-align: center;
+    max-width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(20, 20, 20, 0.85);
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.5);
+    animation: fadeIn 1s ease-out forwards;
+}
+
+/* Styling and transition effects for movie poster */
+.movie-poster {
+    width: 100%;
+    max-width: 300px;
+    margin: 20px 0;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.6);
+}
+
+.movie-poster:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+/* Video player enhancement with shadow and responsive design */
+.video-player {
+    width: 100%;
+    max-width: 1200px; /* Larger max width for better viewing */
+    box-shadow: 0 0 20px rgba(0,0,0,0.7), 0 0 40px rgba(0,0,0,0.6) inset;
+}
+
+/* Responsive back button with modern design touch */
+.back-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: var(--text-color);
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: all 0.3s;
+}
+
+.back-button:hover {
+    background-color: var(--hover-color);
+    box-shadow: 0 0 15px var(--hover-color);
+}
+
+/* Additional details with sleek design */
+.additional-details {
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+    margin-top: 10px;
+    background-color: var(--accent-color);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+
+/* Ensures prominent display of titles with shadow for depth */
+h1 {
+    color: var(--primary-color);
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+/* Responsive media queries for better mobile viewing */
+@media (max-width: 768px) {
+    .movie-details, .video-player {
+        max-width: 95%;
+    }
+
+    .movie-poster {
+        max-width: 200px;
+    }
+}

@@ -1,0 +1,39 @@
+.buy-coins-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #121212;
+    color: white;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.coin-options {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.coin-option {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.coin-option:hover {
+    background-color: #444;
+}
+
+.coin-option h2 {
+    margin-top: 0;
+}
+
+.coin-option p {
+    margin-bottom: 0;
+}
